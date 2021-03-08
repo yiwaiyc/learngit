@@ -15,3 +15,4 @@ for root, ds, fs in os.walk("E:/study/Code/npm/node_modules"):
             print(root+"\\"+f)
             print("E:/study/Code/npm/new"+name+".tgz")
             shutil.copyfile(root+"\\"+f, "E:/study/Code/npm/new/"+name+".tgz")
+            abc
