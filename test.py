@@ -16,3 +16,4 @@ for root, ds, fs in os.walk("E:/study/Code/npm/node_modules"):
             print("E:/study/Code/npm/new"+name+".tgz")
             shutil.copyfile(root+"\\"+f, "E:/study/Code/npm/new/"+name+".tgz")
             print("测试冲突")
+            abc
